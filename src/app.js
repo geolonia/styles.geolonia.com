@@ -29,7 +29,9 @@ req.onreadystatechange = () => {
 
     menu.addEventListener('change', event => {
       const value = event.target.value
-      map.setStyle(`./${value}/style.json`);
+      map.setStyle(`./${value}/style.json`, {
+        localIdeographFontFamily: "sans-serif"
+      });
     })
   }
 }
