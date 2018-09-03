@@ -3533,7 +3533,7 @@
       "layout": {
         "icon-image": "{class}_11",
         "text-anchor": "left",
-        "text-field": "{name_en}",
+        "text-field": "{name:ja}",
         "text-font": [
           "Noto Sans CJK JP Regular"
         ],
@@ -3668,7 +3668,7 @@
         ]
       ],
       "layout": {
-        "text-field": "{name_en}",
+        "text-field": "{name:ja}",
         "text-font": [
           "Noto Sans CJK JP Regular"
         ],
@@ -3710,7 +3710,7 @@
         ]
       ],
       "layout": {
-        "text-field": "{name_en}",
+        "text-field": "{name:ja}",
         "text-font": [
           "Noto Sans CJK JP Regular"
         ],
@@ -3764,7 +3764,7 @@
           ]
         },
         "text-anchor": "bottom",
-        "text-field": "{name_en}",
+        "text-field": "{name:ja}",
         "text-font": [
           "Noto Sans CJK JP Regular"
         ],
@@ -3823,7 +3823,7 @@
           ]
         },
         "text-anchor": "bottom",
-        "text-field": "{name_en}",
+        "text-field": "{name:ja}",
         "text-font": [
           "Noto Sans CJK JP Regular"
         ],
@@ -3862,7 +3862,7 @@
       "source-layer": "place",
       "maxzoom": 6,
       "layout": {
-        "text-field": "{name_en}",
+        "text-field": "{name:ja}",
         "text-font": [
           "Noto Sans CJK JP Regular"
         ],
@@ -3914,7 +3914,7 @@
         ]
       ],
       "layout": {
-        "text-field": "{name_en}",
+        "text-field": "{name:ja}",
         "text-font": [
           "Noto Sans CJK JP Regular"
         ],
@@ -3960,7 +3960,7 @@
         ]
       ],
       "layout": {
-        "text-field": "{name_en}",
+        "text-field": "{name:ja}",
         "text-font": [
           "Noto Sans CJK JP Regular"
         ],
@@ -4006,7 +4006,7 @@
         ]
       ],
       "layout": {
-        "text-field": "{name_en}",
+        "text-field": "{name:ja}",
         "text-font": [
           "Noto Sans CJK JP Regular"
         ],
@@ -4040,7 +4040,7 @@
       "source-layer": "place",
       "maxzoom": 1,
       "layout": {
-        "text-field": "{name_en}",
+        "text-field": "{name:ja}",
         "text-font": [
           "Noto Sans CJK JP Regular"
         ],

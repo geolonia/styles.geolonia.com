@@ -1039,7 +1039,7 @@
         ]
       ],
       "layout": {
-        "text-field": "{name_en}",
+        "text-field": "{name:ja}",
         "text-font": [
           "Noto Sans CJK JP Regular"
         ],
@@ -1086,7 +1086,7 @@
         ]
       ],
       "layout": {
-        "text-field": "{name_en}",
+        "text-field": "{name:ja}",
         "text-font": [
           "Noto Sans CJK JP Regular"
         ],
