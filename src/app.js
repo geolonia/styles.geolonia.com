@@ -25,18 +25,20 @@ req.onreadystatechange = () => {
     const menu = document.querySelector('#menu')
 
     for (const key in styles) {
-      const option = document.createElement('option')
-      option.value = key
-      option.innerText = styles[key]
-      menu.appendChild(option)
-    }
+      const img = document.createElement('img')
+      img.src = `./${key}/screenshot.png`
+      img.dataset.target = key
+      img.title = styles[key]
 
-    menu.addEventListener('change', event => {
-      const value = event.target.value
-      map.setStyle(`./${value}/style.json`, {
-        localIdeographFontFamily: "sans-serif"
-      });
-    })
+      menu.appendChild(img)
+
+      img.addEventListener('click', event => {
+        const value = event.target.dataset.target
+        map.setStyle(`./${value}/style.json`, {
+          localIdeographFontFamily: "sans-serif"
+        });
+      })
+    }
   }
 }
 
