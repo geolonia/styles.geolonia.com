@@ -1,4 +1,9 @@
-[
-  "osm-bright",
-  "klokantech-basic"
-]
+{
+  "osm-bright": "OSM Bright",
+  "osm-liberty": "OSM Liberty",
+  "klokantech-basic": "Klokantech Basic",
+  "klokantech-3d": "Klokantech 3D",
+  "positron": "Positron",
+  "dark-matter": "Dark Matter",
+  "fiord-color": "Fiord Color"
+}

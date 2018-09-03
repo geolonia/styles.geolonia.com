@@ -6,9 +6,10 @@ req.onreadystatechange = () => {
   const result = document.getElementById('result');
   if (req.readyState == 4 && req.status == 200) {
     const styles = JSON.parse(req.responseText)
+
     const map = new mapboxgl.Map({
       container: 'map',
-      style: `./${styles[0]}/style.json`,
+      style: `./${Object.keys(styles)[0]}/style.json`,
       attributionControl: true,
       hash: true,
       localIdeographFontFamily: "sans-serif"
@@ -20,12 +21,12 @@ req.onreadystatechange = () => {
 
     const menu = document.querySelector('#menu')
 
-    styles.forEach(element => {
+    for (const key in styles) {
       const option = document.createElement('option')
-      option.value = element
-      option.innerText = element
+      option.value = key
+      option.innerText = styles[key]
       menu.appendChild(option)
-    });
+    }
 
     menu.addEventListener('change', event => {
       const value = event.target.value
