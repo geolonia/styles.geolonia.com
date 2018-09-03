@@ -11,6 +11,7 @@
   "author": "",
   "license": "ISC",
   "dependencies": {
+    "@tilecloud/mbgl-export-control": "^0.3.8",
     "@tilecloud/mbgl-tilecloud-control": "^0.3.5",
     "parcel": "^1.9.7"
   }
