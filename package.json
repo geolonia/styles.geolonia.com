@@ -1,0 +1,17 @@
+{
+  "name": "styles.tilecloud.io",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "watch": "parcel -d . src/index.html --open",
+    "build": "rm app.* && parcel build -d . src/index.html --public-url '.' ",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "@tilecloud/mbgl-tilecloud-control": "^0.3.5",
+    "parcel": "^1.9.7"
+  }
+}
