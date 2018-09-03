@@ -1,6 +1,6 @@
-.envrc
-index.html
-app.*
+/.envrc
+/index.html
+/app.*
 
 # Logs
 logs
