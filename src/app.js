@@ -28,7 +28,7 @@ req.onreadystatechange = () => {
       const img = document.createElement('img')
       img.src = `./${key}/screenshot.png`
       img.dataset.target = key
-      img.title = styles[key]
+      img.title = styles[key].name
 
       menu.appendChild(img)
 
