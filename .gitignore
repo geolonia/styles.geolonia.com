@@ -2,6 +2,9 @@
 /index.html
 /app.*.js
 /app.*.map
+/style.*.css
+/style.*.map
+/style.*.js
 /icon.*.png
 
 # Logs
