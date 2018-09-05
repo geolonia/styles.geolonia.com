@@ -1,9 +1,23 @@
 {
-  "osm-bright": "OSM Bright",
-  "osm-liberty": "OSM Liberty",
-  "klokantech-basic": "Klokantech Basic",
-  "klokantech-3d": "Klokantech 3D",
-  "positron": "Positron",
-  "dark-matter": "Dark Matter",
-  "fiord-color": "Fiord Color"
+  "osm-bright": {
+    "name": "OSM Bright"
+  },
+  "osm-liberty": {
+    "name": "OSM Liberty"
+  },
+  "klokantech-basic": {
+    "name": "Klokantech Basic"
+  },
+  "klokantech-3d": {
+    "name": "Klokantech 3D"
+  },
+  "positron": {
+    "name": "Positron"
+  },
+  "dark-matter": {
+    "name": "Dark Matter"
+  },
+  "fiord-color": {
+    "name": "Fiord Color"
+  }
 }
