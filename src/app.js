@@ -37,6 +37,10 @@ req.onreadystatechange = () => {
         map.setStyle(`./${value}/style.json`, {
           localIdeographFontFamily: "sans-serif"
         });
+        document.querySelectorAll('#menu img').forEach(element => {
+          element.style.borderColor = '#999999'
+          event.target.style.borderColor = '#555555'
+        })
       })
     }
   }
