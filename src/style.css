@@ -20,7 +20,7 @@ body {
 {
   display: block;
   width: 48px;
-  height: auto;
+  height: 48px;
   margin-bottom: 5px;
   border: 2px solid #999999;
   cursor: pointer;
