@@ -1,5 +1,4 @@
 import 'babel-polyfill' // For ie11
-import ExportControl from '@tilecloud/mbgl-export-control'
 import TileCloudControl from '@tilecloud/mbgl-tilecloud-control'
 
 const req = new XMLHttpRequest();
@@ -20,7 +19,6 @@ req.onreadystatechange = () => {
     map.addControl(new mapboxgl.NavigationControl());
     map.addControl(new mapboxgl.GeolocateControl());
     map.addControl(new TileCloudControl());
-    map.addControl(new ExportControl());
 
     const menu = document.querySelector('#menu')
 
