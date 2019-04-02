@@ -12,6 +12,7 @@
   "license": "ISC",
   "dependencies": {
     "@tilecloud/mbgl-tilecloud-control": "^0.3.5",
-    "parcel": "^1.9.7"
+    "babel-polyfill": "^6.26.0",
+    "parcel": "^1.12.3"
   }
 }
