@@ -4979,10 +4979,5 @@
       }
     }
   ],
-  "id": "osm-bright",
-  "center": [
-    139.69167,
-    35.68944
-  ],
-  "zoom": 10
+  "id": "osm-bright"
 }
