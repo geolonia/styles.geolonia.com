@@ -1847,7 +1847,7 @@
     {
       "id": "japanese-prefectures-label",
       "type": "symbol",
-      "minzoom": 0,
+      "minzoom": 6,
       "maxzoom": 9,
       "source": "japanese-prefectures",
       "paint": {
