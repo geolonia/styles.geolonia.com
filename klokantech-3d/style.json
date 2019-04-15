@@ -1184,10 +1184,5 @@
     }
   ],
   "id": "klokantech-3d",
-  "center": [
-    139.69167,
-    35.68944
-  ],
-  "zoom": 10,
   "sprite": "https://sprites.tilecloud.io/maki"
 }
