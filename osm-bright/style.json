@@ -48,7 +48,7 @@
       "data": "https://api.tilecloud.io/v1/prefs"
     }
   },
-  "sprite": "https://styles.tilecloud.io/osm-bright/sprite",
+  "sprite": "https://sprites.tilecloud.io/maki",
   "glyphs": "https://glyphs.tilecloud.io/{fontstack}/{range}.pbf",
   "layers": [
     {
