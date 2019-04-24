@@ -1896,7 +1896,7 @@
         ]
       ],
       "paint": {
-        "line-color": "#cba",
+        "line-color": "#dddddd",
         "line-dasharray": [
           1.5,
           0.75
