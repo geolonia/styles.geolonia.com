@@ -1,6 +1,6 @@
 {
   "version": 8,
-  "name": "TileCloud Basic",
+  "name": "TileCloud Basic 3D",
   "metadata": {
     "mapbox:type": "template",
     "mapbox:groups": {
@@ -4717,5 +4717,5 @@
       }
     }
   ],
-  "id": "tilecloud-basic"
+  "id": "tilecloud-basic-3d"
 }
