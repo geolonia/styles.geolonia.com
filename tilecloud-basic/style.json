@@ -4262,19 +4262,7 @@
       ],
       "layout": {
         "text-letter-spacing": 0.1,
-        "text-size": {
-          "base": 1.2,
-          "stops": [
-            [
-              12,
-              10
-            ],
-            [
-              15,
-              14
-            ]
-          ]
-        },
+        "text-size": 10,
         "text-font": [
           "Noto Sans CJK JP Regular"
         ],
@@ -4346,19 +4334,7 @@
         "text-font": [
           "Noto Sans CJK JP Regular"
         ],
-        "text-size": {
-          "base": 1.2,
-          "stops": [
-            [
-              10,
-              14
-            ],
-            [
-              15,
-              24
-            ]
-          ]
-        },
+        "text-size": 14,
         "text-field": ["string", ["get", "name:ja"], ["string", ["get", "name:nonlatin"], ["get", "name"]]],
         "text-max-width": 8,
         "visibility": "visible"
@@ -4394,19 +4370,7 @@
         "text-font": [
           "Noto Sans CJK JP Regular"
         ],
-        "text-size": {
-          "base": 1.2,
-          "stops": [
-            [
-              7,
-              14
-            ],
-            [
-              11,
-              24
-            ]
-          ]
-        },
+        "text-size": 14,
         "text-field": ["string", ["get", "name:ja"], ["string", ["get", "name:nonlatin"], ["get", "name"]]],
         "text-max-width": 8,
         "visibility": "visible"
@@ -4442,19 +4406,7 @@
         "text-font": [
           "Noto Sans CJK JP Regular"
         ],
-        "text-size": {
-          "base": 1.2,
-          "stops": [
-            [
-              7,
-              14
-            ],
-            [
-              11,
-              24
-            ]
-          ]
-        },
+        "text-size": 14,
         "text-field": ["string", ["get", "name:ja"], ["string", ["get", "name:nonlatin"], ["get", "name"]]],
         "text-max-width": 8,
         "icon-image": "star_11",
