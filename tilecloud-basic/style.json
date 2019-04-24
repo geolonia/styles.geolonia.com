@@ -4354,6 +4354,7 @@
       },
       "source": "openmaptiles",
       "source-layer": "place",
+      "minzoom": 8,
       "filter": [
         "all",
         [
@@ -4672,7 +4673,7 @@
       "id": "japanese-prefectures-label",
       "type": "symbol",
       "source": "japanese-prefectures",
-      "minzoom": 6,
+      "minzoom": 5,
       "maxzoom": 9,
       "layout": {
         "text-field": ["string", ["get", "name:ja"], ["string", ["get", "name:nonlatin"], ["get", "name"]]],
