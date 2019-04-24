@@ -560,7 +560,7 @@
       "type": "fill",
       "source": "openmaptiles",
       "source-layer": "building",
-      "minzoom": 14,
+      "minzoom": 15,
       "paint": {
         "fill-color": "#dedede",
         "fill-outline-color": "#ffffff"
@@ -4251,6 +4251,7 @@
       },
       "source": "openmaptiles",
       "source-layer": "place",
+      "minzoom": 14,
       "filter": [
         "!in",
         "class",
