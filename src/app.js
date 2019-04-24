@@ -27,6 +27,29 @@ req.onreadystatechange = () => {
       console.log( performance.now() - start )
     } )
 
+    const dumpFeature = event => {
+      const features = map.queryRenderedFeatures(event.point)
+      const jsonContainer = document.getElementById('json')
+      jsonContainer.innerText = JSON.stringify(features, null, '  ')
+    }
+
+    const mouseEnter = () => {
+      map.getCanvas().style.cursor = 'pointer'
+    }
+
+    const mouseLeave = () => {
+      map.getCanvas().style.cursor = ''
+    }
+
+    [
+      'poi',
+      'poi-railway',
+    ].forEach( (item) => {
+      map.on('click', item, dumpFeature)
+      map.on('mouseenter', item, mouseEnter)
+      map.on('mouseleave', item, mouseLeave)
+    })
+
     const menu = document.querySelector('#menu')
 
     for (const key in styles) {

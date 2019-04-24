@@ -649,69 +649,10 @@
       },
       "source": "openmaptiles",
       "source-layer": "building",
+      "minzoom": 14,
       "paint": {
-        "fill-color": {
-          "base": 1,
-          "stops": [
-            [
-              15.5,
-              "#f2eae2"
-            ],
-            [
-              16,
-              "#dfdbd7"
-            ]
-          ]
-        },
-        "fill-antialias": true
-      }
-    },
-    {
-      "id": "building-top",
-      "type": "fill",
-      "metadata": {
-        "mapbox:group": "1444849364238.8171"
-      },
-      "source": "openmaptiles",
-      "source-layer": "building",
-      "layout": {
-        "visibility": "visible"
-      },
-      "paint": {
-        "fill-translate": {
-          "base": 1,
-          "stops": [
-            [
-              14,
-              [
-                0,
-                0
-              ]
-            ],
-            [
-              16,
-              [
-                -2,
-                -2
-              ]
-            ]
-          ]
-        },
-        "fill-outline-color": "#dfdbd7",
-        "fill-color": "#f2eae2",
-        "fill-opacity": {
-          "base": 1,
-          "stops": [
-            [
-              13,
-              0
-            ],
-            [
-              16,
-              1
-            ]
-          ]
-        }
+        "fill-color": "#dedede",
+        "fill-outline-color": "#ffffff"
       }
     },
     {
@@ -1702,6 +1643,7 @@
       },
       "source": "openmaptiles",
       "source-layer": "transportation",
+      "minzoom": 14,
       "filter": [
         "all",
         [
@@ -2019,6 +1961,7 @@
       },
       "source": "openmaptiles",
       "source-layer": "transportation",
+      "minzoom": 16,
       "filter": [
         "all",
         [
@@ -2178,6 +2121,7 @@
       },
       "source": "openmaptiles",
       "source-layer": "transportation",
+      "minzoom": 14,
       "filter": [
         "all",
         [
@@ -3740,7 +3684,7 @@
           "Noto Sans CJK JP Regular"
         ],
         "text-size": 14,
-        "text-field": "{name:ja}",
+        "text-field": ["string", ["get", "name:ja"], ["string", ["get", "name:nonlatin"], ["get", "name"]]],
         "text-max-width": 5,
         "text-rotation-alignment": "map",
         "symbol-placement": "line",
@@ -3768,7 +3712,7 @@
           "Noto Sans CJK JP Regular"
         ],
         "text-size": 14,
-        "text-field": "{name:ja}",
+        "text-field": ["string", ["get", "name:ja"], ["string", ["get", "name:nonlatin"], ["get", "name"]]],
         "text-max-width": 5,
         "text-rotation-alignment": "map",
         "symbol-placement": "line",
@@ -3804,7 +3748,7 @@
           "Noto Sans CJK JP Regular"
         ],
         "text-size": 14,
-        "text-field": "{name:ja}",
+        "text-field": ["string", ["get", "name:ja"], ["string", ["get", "name:nonlatin"], ["get", "name"]]],
         "text-max-width": 5,
         "text-rotation-alignment": "map",
         "symbol-placement": "point",
@@ -3851,7 +3795,7 @@
             ]
           ]
         },
-        "text-field": "{name:ja}",
+        "text-field": ["string", ["get", "name:ja"], ["string", ["get", "name:nonlatin"], ["get", "name"]]],
         "text-max-width": 5,
         "text-rotation-alignment": "map",
         "symbol-placement": "point",
@@ -3866,7 +3810,7 @@
       }
     },
     {
-      "id": "poi-level-3",
+      "id": "poi",
       "type": "symbol",
       "source": "openmaptiles",
       "source-layer": "poi",
@@ -3877,98 +3821,6 @@
           "==",
           "$type",
           "Point"
-        ],
-        [
-          ">=",
-          "rank",
-          25
-        ]
-      ],
-      "layout": {
-        "text-padding": 2,
-        "text-font": [
-          "Noto Sans CJK JP Regular"
-        ],
-        "text-anchor": "top",
-        "icon-image": "{class}_11",
-        "text-field": "{name:ja}",
-        "text-offset": [
-          0,
-          0.6
-        ],
-        "text-size": 12,
-        "text-max-width": 9
-      },
-      "paint": {
-        "text-halo-blur": 0.5,
-        "text-color": "#666",
-        "text-halo-width": 1,
-        "text-halo-color": "#ffffff"
-      }
-    },
-    {
-      "id": "poi-level-2",
-      "type": "symbol",
-      "source": "openmaptiles",
-      "source-layer": "poi",
-      "minzoom": 15,
-      "filter": [
-        "all",
-        [
-          "==",
-          "$type",
-          "Point"
-        ],
-        [
-          "<=",
-          "rank",
-          24
-        ],
-        [
-          ">=",
-          "rank",
-          15
-        ]
-      ],
-      "layout": {
-        "text-padding": 2,
-        "text-font": [
-          "Noto Sans CJK JP Regular"
-        ],
-        "text-anchor": "top",
-        "icon-image": "{class}_11",
-        "text-field": "{name:ja}",
-        "text-offset": [
-          0,
-          0.6
-        ],
-        "text-size": 12,
-        "text-max-width": 9
-      },
-      "paint": {
-        "text-halo-blur": 0.5,
-        "text-color": "#666",
-        "text-halo-width": 1,
-        "text-halo-color": "#ffffff"
-      }
-    },
-    {
-      "id": "poi-level-1",
-      "type": "symbol",
-      "source": "openmaptiles",
-      "source-layer": "poi",
-      "minzoom": 14,
-      "filter": [
-        "all",
-        [
-          "==",
-          "$type",
-          "Point"
-        ],
-        [
-          "<=",
-          "rank",
-          14
         ],
         [
           "has",
@@ -3982,7 +3834,7 @@
         ],
         "text-anchor": "top",
         "icon-image": "{class}_11",
-        "text-field": "{name:ja}",
+        "text-field": ["string", ["get", "name:ja"], ["string", ["get", "name:nonlatin"], ["get", "name"]]],
         "text-offset": [
           0,
           0.6
@@ -4032,7 +3884,7 @@
         ],
         "text-anchor": "top",
         "icon-image": "{class}_11",
-        "text-field": "{name:ja}",
+        "text-field": ["string", ["get", "name:ja"], ["string", ["get", "name:nonlatin"], ["get", "name"]]],
         "text-offset": [
           0,
           0.6
@@ -4179,7 +4031,7 @@
         "text-font": [
           "Noto Sans CJK JP Regular"
         ],
-        "text-field": "{name:ja}",
+        "text-field": ["string", ["get", "name:ja"], ["string", ["get", "name:nonlatin"], ["get", "name"]]],
         "symbol-placement": "line",
         "text-rotation-alignment": "map"
       },
@@ -4227,7 +4079,7 @@
         "text-font": [
           "Noto Sans CJK JP Regular"
         ],
-        "text-field": "{name:ja}",
+        "text-field": ["string", ["get", "name:ja"], ["string", ["get", "name:nonlatin"], ["get", "name"]]],
         "symbol-placement": "line",
         "text-rotation-alignment": "map"
       },
@@ -4268,7 +4120,7 @@
         "text-font": [
           "Noto Sans CJK JP Regular"
         ],
-        "text-field": "{name:ja}",
+        "text-field": ["string", ["get", "name:ja"], ["string", ["get", "name:nonlatin"], ["get", "name"]]],
         "symbol-placement": "line",
         "text-rotation-alignment": "map"
       },
@@ -4462,7 +4314,7 @@
         ],
         "text-anchor": "top",
         "icon-image": "airport_11",
-        "text-field": "{name:ja}",
+        "text-field": ["string", ["get", "name:ja"], ["string", ["get", "name:nonlatin"], ["get", "name"]]],
         "text-offset": [
           0,
           0.6
@@ -4515,7 +4367,7 @@
         "text-font": [
           "Noto Sans CJK JP Regular"
         ],
-        "text-field": "{name:ja}",
+        "text-field": ["string", ["get", "name:ja"], ["string", ["get", "name:nonlatin"], ["get", "name"]]],
         "text-transform": "uppercase",
         "text-max-width": 9,
         "visibility": "visible"
@@ -4556,7 +4408,7 @@
             ]
           ]
         },
-        "text-field": "{name:ja}",
+        "text-field": ["string", ["get", "name:ja"], ["string", ["get", "name:nonlatin"], ["get", "name"]]],
         "text-max-width": 8,
         "visibility": "visible"
       },
@@ -4596,7 +4448,7 @@
             ]
           ]
         },
-        "text-field": "{name:ja}",
+        "text-field": ["string", ["get", "name:ja"], ["string", ["get", "name:nonlatin"], ["get", "name"]]],
         "text-max-width": 8,
         "visibility": "visible"
       },
@@ -4644,7 +4496,7 @@
             ]
           ]
         },
-        "text-field": "{name:ja}",
+        "text-field": ["string", ["get", "name:ja"], ["string", ["get", "name:nonlatin"], ["get", "name"]]],
         "text-max-width": 8,
         "visibility": "visible"
       },
@@ -4692,7 +4544,7 @@
             ]
           ]
         },
-        "text-field": "{name:ja}",
+        "text-field": ["string", ["get", "name:ja"], ["string", ["get", "name:nonlatin"], ["get", "name"]]],
         "text-max-width": 8,
         "icon-image": "star_11",
         "text-offset": [
@@ -4738,7 +4590,7 @@
         "text-font": [
           "Noto Sans CJK JP Regular"
         ],
-        "text-field": "{name:ja}",
+        "text-field": ["string", ["get", "name:ja"], ["string", ["get", "name:nonlatin"], ["get", "name"]]],
         "text-size": {
           "stops": [
             [
@@ -4791,7 +4643,7 @@
         "text-font": [
           "Noto Sans CJK JP Regular"
         ],
-        "text-field": "{name:ja}",
+        "text-field": ["string", ["get", "name:ja"], ["string", ["get", "name:nonlatin"], ["get", "name"]]],
         "text-size": {
           "stops": [
             [
@@ -4844,7 +4696,7 @@
         "text-font": [
           "Noto Sans CJK JP Regular"
         ],
-        "text-field": "{name:ja}",
+        "text-field": ["string", ["get", "name:ja"], ["string", ["get", "name:nonlatin"], ["get", "name"]]],
         "text-size": {
           "stops": [
             [
@@ -4897,7 +4749,7 @@
         "text-font": [
           "Noto Sans CJK JP Regular"
         ],
-        "text-field": "{name:ja}",
+        "text-field": ["string", ["get", "name:ja"], ["string", ["get", "name:nonlatin"], ["get", "name"]]],
         "text-size": {
           "stops": [
             [
@@ -4939,7 +4791,7 @@
         "text-font": [
           "Noto Sans CJK JP Regular"
         ],
-        "text-field": "{name:ja}",
+        "text-field": ["string", ["get", "name:ja"], ["string", ["get", "name:nonlatin"], ["get", "name"]]],
         "text-size": 14,
         "text-max-width": 6.25,
         "text-transform": "uppercase",
@@ -4959,7 +4811,7 @@
       "minzoom": 6,
       "maxzoom": 9,
       "layout": {
-        "text-field": "{name:ja}",
+        "text-field": ["string", ["get", "name:ja"], ["string", ["get", "name:nonlatin"], ["get", "name"]]],
         "text-font": [
           "Noto Sans CJK JP Regular"
         ],
