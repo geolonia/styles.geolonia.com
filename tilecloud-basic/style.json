@@ -41,7 +41,7 @@
       "data": "https://api.tilecloud.io/v1/prefs"
     }
   },
-  "sprite": "https://sprites.tilecloud.io/maki",
+  "sprite": "https://sprites.tilecloud.io/basic",
   "glyphs": "https://glyphs.tilecloud.io/{fontstack}/{range}.pbf",
   "layers": [
     {
@@ -4069,7 +4069,7 @@
       ],
       "layout": {
         "text-size": 10,
-        "icon-image": "road_{ref_length}",
+        "icon-image": "road-{ref_length}",
         "icon-rotation-alignment": "viewport",
         "symbol-spacing": 200,
         "text-font": [
@@ -4120,7 +4120,7 @@
       ],
       "layout": {
         "text-size": 10,
-        "icon-image": "{network}_{ref_length}",
+        "icon-image": "{network}-{ref_length}",
         "icon-rotation-alignment": "viewport",
         "symbol-spacing": 200,
         "text-font": [
@@ -4178,7 +4178,7 @@
       ],
       "layout": {
         "text-size": 10,
-        "icon-image": "{network}_{ref_length}",
+        "icon-image": "{network}-{ref_length}",
         "icon-rotation-alignment": "viewport",
         "symbol-spacing": 200,
         "text-font": [
