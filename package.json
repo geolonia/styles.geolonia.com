@@ -4,7 +4,7 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "watch": "parcel -d . src/index.html --open",
+    "start": "parcel -d . src/index.html --open",
     "build": "parcel build -d . src/index.html --public-url '.' ",
     "test": "echo \"Error: no test specified\" && exit 1"
   },

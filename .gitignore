@@ -1,6 +1,7 @@
 /.envrc
 /index.html
 /app.*.js
+/app.*.css
 /app.*.map
 /style.*.css
 /style.*.map

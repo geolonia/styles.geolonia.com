@@ -1,12 +1,15 @@
 import 'babel-polyfill' // For ie11
 import TileCloudControl from '@tilecloud/mbgl-tilecloud-control'
 
+import './style.css'
+
 const req = new XMLHttpRequest();
 
 req.onreadystatechange = () => {
   const result = document.getElementById('result');
   if (req.readyState == 4 && req.status == 200) {
     const styles = JSON.parse(req.responseText)
+    const start = performance.now()
 
     const map = new mapboxgl.Map({
       container: 'map',
@@ -19,6 +22,10 @@ req.onreadystatechange = () => {
     map.addControl(new mapboxgl.NavigationControl());
     map.addControl(new mapboxgl.GeolocateControl());
     map.addControl(new TileCloudControl());
+
+    map.on( 'load', () => {
+      console.log( performance.now() - start )
+    } )
 
     const menu = document.querySelector('#menu')
 
