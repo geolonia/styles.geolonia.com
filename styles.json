@@ -2,6 +2,9 @@
   "tilecloud-basic": {
     "name": "TileCloud Basic"
   },
+  "tilecloud-basic-3d": {
+    "name": "TileCloud Basic 3D"
+  },
   "osm-bright": {
     "name": "OSM Bright"
   },
