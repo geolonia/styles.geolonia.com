@@ -4224,7 +4224,7 @@
           "Noto Sans CJK JP Regular"
         ],
         "text-anchor": "top",
-        "icon-image": "airport_11",
+        "icon-image": "airport-11",
         "text-field": ["string", ["get", "name:ja"], ["string", ["get", "name:nonlatin"], ["get", "name"]]],
         "text-offset": [
           0,
@@ -4409,7 +4409,7 @@
         "text-size": 14,
         "text-field": ["string", ["get", "name:ja"], ["string", ["get", "name:nonlatin"], ["get", "name"]]],
         "text-max-width": 8,
-        "icon-image": "star_11",
+        "icon-image": "star-11",
         "text-offset": [
           0.4,
           0
