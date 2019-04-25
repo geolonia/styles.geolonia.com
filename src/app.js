@@ -43,6 +43,7 @@ req.onreadystatechange = () => {
 
     [
       'poi',
+      'poi-primary',
       'poi-railway',
     ].forEach( (item) => {
       map.on('click', item, dumpFeature)
