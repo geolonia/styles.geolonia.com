@@ -567,6 +567,53 @@
       }
     },
     {
+      "id": "tunnel-railway",
+      "type": "line",
+      "metadata": {
+        "mapbox:group": "1444849354174.1904"
+      },
+      "source": "openmaptiles",
+      "source-layer": "transportation",
+      "filter": [
+        "all",
+        [
+          "==",
+          "brunnel",
+          "tunnel"
+        ],
+        [
+          "==",
+          "class",
+          "rail"
+        ]
+      ],
+      "paint": {
+        "line-color": "#A58043",
+        "line-opacity": 0.4,
+        "line-width": {
+          "base": 1.4,
+          "stops": [
+            [
+              10,
+              0.5
+            ],
+            [
+              18,
+              2
+            ],
+            [
+              22,
+              18
+            ]
+          ]
+        },
+        "line-dasharray": [
+          6,
+          4
+        ]
+      }
+    },
+    {
       "id": "tunnel-service-track-casing",
       "type": "line",
       "metadata": {
@@ -2847,6 +2894,11 @@
           "==",
           "class",
           "rail"
+        ],
+        [
+          "!in",
+          "brunnel",
+          "tunnel"
         ]
       ],
       "paint": {
@@ -2883,6 +2935,11 @@
           "==",
           "class",
           "rail"
+        ],
+        [
+          "!in",
+          "brunnel",
+          "tunnel"
         ]
       ],
       "paint": {
@@ -2982,6 +3039,7 @@
       "type": "line",
       "source": "openmaptiles",
       "source-layer": "boundary",
+      "maxzoom": 14,
       "filter": [
         "all",
         [
