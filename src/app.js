@@ -41,14 +41,12 @@ req.onreadystatechange = () => {
       map.getCanvas().style.cursor = ''
     }
 
-    [
-      'poi',
-      'poi-primary',
-      'poi-railway',
-    ].forEach( (item) => {
-      map.on('click', item, dumpFeature)
-      map.on('mouseenter', item, mouseEnter)
-      map.on('mouseleave', item, mouseLeave)
+    map.on('load', () => {
+      map.getStyle().layers.forEach( (item) => {
+        map.on('click', item.id, dumpFeature)
+        map.on('mouseenter', item.id, mouseEnter)
+        map.on('mouseleave', item.id, mouseLeave)
+      })
     })
 
     const menu = document.querySelector('#menu')
