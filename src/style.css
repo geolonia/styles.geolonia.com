@@ -33,6 +33,7 @@ body {
   height: 100%;
   margin: 0;
   overflow: scroll;
+  background-color: #444444;
 }
 
 #json
@@ -41,6 +42,8 @@ body {
   padding: 16px;
   box-sizing: border-box;
   font-family: "Courier New", Consolas, monospace;
+  color: #ffffff;
+  white-space: pre-wrap;
 }
 
 #map
