@@ -4,26 +4,5 @@
   },
   "tilecloud-basic-3d": {
     "name": "TileCloud Basic 3D"
-  },
-  "osm-bright": {
-    "name": "OSM Bright"
-  },
-  "osm-liberty": {
-    "name": "OSM Liberty"
-  },
-  "klokantech-basic": {
-    "name": "Klokantech Basic"
-  },
-  "klokantech-3d": {
-    "name": "Klokantech 3D"
-  },
-  "positron": {
-    "name": "Positron"
-  },
-  "dark-matter": {
-    "name": "Dark Matter"
-  },
-  "fiord-color": {
-    "name": "Fiord Color"
   }
 }
