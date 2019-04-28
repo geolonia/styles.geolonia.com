@@ -3271,10 +3271,10 @@
       ],
       "layout": {
         "text-font": [
-          "Noto Sans CJK JP Regular"
+          "Noto Sans Regular"
         ],
         "text-size": 14,
-        "text-field": ["string", ["get", "name:ja"], ["string", ["get", "name:nonlatin"], ["get", "name"]]],
+        "text-field": "{name}",
         "text-max-width": 5,
         "text-rotation-alignment": "map",
         "symbol-placement": "line",
@@ -3299,10 +3299,10 @@
       ],
       "layout": {
         "text-font": [
-          "Noto Sans CJK JP Regular"
+          "Noto Sans Regular"
         ],
         "text-size": 14,
-        "text-field": ["string", ["get", "name:ja"], ["string", ["get", "name:nonlatin"], ["get", "name"]]],
+        "text-field": "{name}",
         "text-max-width": 5,
         "text-rotation-alignment": "map",
         "symbol-placement": "line",
@@ -3335,10 +3335,10 @@
       ],
       "layout": {
         "text-font": [
-          "Noto Sans CJK JP Regular"
+          "Noto Sans Regular"
         ],
         "text-size": 14,
-        "text-field": ["string", ["get", "name:ja"], ["string", ["get", "name:nonlatin"], ["get", "name"]]],
+        "text-field": "{name}",
         "text-max-width": 5,
         "text-rotation-alignment": "map",
         "symbol-placement": "point",
@@ -3371,7 +3371,7 @@
       ],
       "layout": {
         "text-font": [
-          "Noto Sans CJK JP Regular"
+          "Noto Sans Regular"
         ],
         "text-size": {
           "stops": [
@@ -3385,7 +3385,7 @@
             ]
           ]
         },
-        "text-field": ["string", ["get", "name:ja"], ["string", ["get", "name:nonlatin"], ["get", "name"]]],
+        "text-field": "{name}",
         "text-max-width": 5,
         "text-rotation-alignment": "map",
         "symbol-placement": "point",
@@ -3425,11 +3425,11 @@
       "layout": {
         "text-padding": 2,
         "text-font": [
-          "Noto Sans CJK JP Regular"
+          "Noto Sans Regular"
         ],
         "text-anchor": "top",
         "icon-image": "{class}-11",
-        "text-field": ["string", ["get", "name:ja"], ["string", ["get", "name:nonlatin"], ["get", "name"]]],
+        "text-field": "{name}",
         "text-offset": [
           0,
           0.6
@@ -3470,11 +3470,11 @@
       "layout": {
         "text-padding": 2,
         "text-font": [
-          "Noto Sans CJK JP Regular"
+          "Noto Sans Regular"
         ],
         "text-anchor": "top",
         "icon-image": "{class}-11",
-        "text-field": ["string", ["get", "name:ja"], ["string", ["get", "name:nonlatin"], ["get", "name"]]],
+        "text-field": "{name}",
         "text-offset": [
           0,
           0.6
@@ -3520,11 +3520,11 @@
       "layout": {
         "text-padding": 2,
         "text-font": [
-          "Noto Sans CJK JP Regular"
+          "Noto Sans Regular"
         ],
         "text-anchor": "top",
         "icon-image": "{class}-11",
-        "text-field": ["string", ["get", "name:ja"], ["string", ["get", "name:nonlatin"], ["get", "name"]]],
+        "text-field": "{name}",
         "text-offset": [
           0,
           0.6
@@ -3672,9 +3672,9 @@
           ]
         },
         "text-font": [
-          "Noto Sans CJK JP Regular"
+          "Noto Sans Regular"
         ],
-        "text-field": ["string", ["get", "name:ja"], ["string", ["get", "name:nonlatin"], ["get", "name"]]],
+        "text-field": "{name}",
         "symbol-placement": "line",
         "text-rotation-alignment": "map"
       },
@@ -3700,11 +3700,11 @@
       "layout": {
         "text-padding": 2,
         "text-font": [
-          "Noto Sans CJK JP Regular"
+          "Noto Sans Regular"
         ],
         "text-anchor": "top",
         "icon-image": "airport-11",
-        "text-field": ["string", ["get", "name:ja"], ["string", ["get", "name:nonlatin"], ["get", "name"]]],
+        "text-field": "{name}",
         "text-offset": [
           0,
           0.6
@@ -3744,9 +3744,9 @@
         "text-letter-spacing": 0.1,
         "text-size": 10,
         "text-font": [
-          "Noto Sans CJK JP Regular"
+          "Noto Sans Regular"
         ],
-        "text-field": ["string", ["get", "name:ja"], ["string", ["get", "name:nonlatin"], ["get", "name"]]],
+        "text-field": "{name}",
         "text-transform": "uppercase",
         "text-max-width": 9,
         "visibility": "visible"
@@ -3772,7 +3772,7 @@
       ],
       "layout": {
         "text-font": [
-          "Noto Sans CJK JP Regular"
+          "Noto Sans Regular"
         ],
         "text-size": {
           "base": 1.2,
@@ -3787,7 +3787,7 @@
             ]
           ]
         },
-        "text-field": ["string", ["get", "name:ja"], ["string", ["get", "name:nonlatin"], ["get", "name"]]],
+        "text-field": "{name}",
         "text-max-width": 8,
         "visibility": "visible"
       },
@@ -3812,10 +3812,10 @@
       ],
       "layout": {
         "text-font": [
-          "Noto Sans CJK JP Regular"
+          "Noto Sans Regular"
         ],
         "text-size": 14,
-        "text-field": ["string", ["get", "name:ja"], ["string", ["get", "name:nonlatin"], ["get", "name"]]],
+        "text-field": "{name}",
         "text-max-width": 8,
         "visibility": "visible"
       },
@@ -3849,10 +3849,10 @@
       ],
       "layout": {
         "text-font": [
-          "Noto Sans CJK JP Regular"
+          "Noto Sans Regular"
         ],
         "text-size": 14,
-        "text-field": ["string", ["get", "name:ja"], ["string", ["get", "name:nonlatin"], ["get", "name"]]],
+        "text-field": "{name}",
         "text-max-width": 8,
         "visibility": "visible"
       },
@@ -3885,10 +3885,10 @@
       ],
       "layout": {
         "text-font": [
-          "Noto Sans CJK JP Regular"
+          "Noto Sans Regular"
         ],
         "text-size": 14,
-        "text-field": ["string", ["get", "name:ja"], ["string", ["get", "name:nonlatin"], ["get", "name"]]],
+        "text-field": "{name}",
         "text-max-width": 8,
         "icon-image": "star-11",
         "text-offset": [
@@ -3932,9 +3932,9 @@
       ],
       "layout": {
         "text-font": [
-          "Noto Sans CJK JP Regular"
+          "Noto Sans Regular"
         ],
-        "text-field": ["string", ["get", "name:ja"], ["string", ["get", "name:nonlatin"], ["get", "name"]]],
+        "text-field": "{name}",
         "text-size": {
           "stops": [
             [
@@ -3985,9 +3985,9 @@
       ],
       "layout": {
         "text-font": [
-          "Noto Sans CJK JP Regular"
+          "Noto Sans Regular"
         ],
-        "text-field": ["string", ["get", "name:ja"], ["string", ["get", "name:nonlatin"], ["get", "name"]]],
+        "text-field": "{name}",
         "text-size": {
           "stops": [
             [
@@ -4038,9 +4038,9 @@
       ],
       "layout": {
         "text-font": [
-          "Noto Sans CJK JP Regular"
+          "Noto Sans Regular"
         ],
-        "text-field": ["string", ["get", "name:ja"], ["string", ["get", "name:nonlatin"], ["get", "name"]]],
+        "text-field": "{name}",
         "text-size": {
           "stops": [
             [
@@ -4091,9 +4091,9 @@
       ],
       "layout": {
         "text-font": [
-          "Noto Sans CJK JP Regular"
+          "Noto Sans Regular"
         ],
-        "text-field": ["string", ["get", "name:ja"], ["string", ["get", "name:nonlatin"], ["get", "name"]]],
+        "text-field": "{name}",
         "text-size": {
           "stops": [
             [
@@ -4133,9 +4133,9 @@
       ],
       "layout": {
         "text-font": [
-          "Noto Sans CJK JP Regular"
+          "Noto Sans Regular"
         ],
-        "text-field": ["string", ["get", "name:ja"], ["string", ["get", "name:nonlatin"], ["get", "name"]]],
+        "text-field": "{name}",
         "text-size": 14,
         "text-max-width": 6.25,
         "text-transform": "uppercase",
@@ -4155,9 +4155,9 @@
       "minzoom": 5,
       "maxzoom": 9,
       "layout": {
-        "text-field": ["string", ["get", "name:ja"], ["string", ["get", "name:nonlatin"], ["get", "name"]]],
+        "text-field": "{name}",
         "text-font": [
-          "Noto Sans CJK JP Regular"
+          "Noto Sans Regular"
         ],
         "text-size": 14,
         "text-anchor": "center",
