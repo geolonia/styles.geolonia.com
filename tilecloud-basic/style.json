@@ -2,6 +2,10 @@
   "version": 8,
   "name": "TileCloud Basic",
   "sources": {
+    "shaded": {
+      "type": "raster",
+      "url": "https://shaded.tiles.tilecloud.io/source.json"
+    },
     "openmaptiles": {
       "type": "vector",
       "url": "https://api.tilecloud.io/v1/sources?key=YOUR-API-KEY"
@@ -19,6 +23,28 @@
       "type": "background",
       "paint": {
         "background-color": "rgba(238, 238, 238, 1)"
+      }
+    },
+    {
+      "id": "shaded",
+      "type": "raster",
+      "source": "shaded",
+      "maxzoom": 12,
+      "interactive": true,
+      "layout": {
+        "visibility": "visible"
+      },
+      "paint": {
+          "raster-opacity": {
+              "base": 0,
+              "stops": [
+                  [
+                      4,
+                      0.2
+                  ]
+              ]
+          },
+          "raster-contrast": 0
       }
     },
     {
