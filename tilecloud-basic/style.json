@@ -30,10 +30,6 @@
       "type": "raster",
       "source": "shaded",
       "maxzoom": 12,
-      "interactive": true,
-      "layout": {
-        "visibility": "visible"
-      },
       "paint": {
           "raster-opacity": {
               "base": 0,
