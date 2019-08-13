@@ -1,9 +1,17 @@
 {
   "tilecloud-basic": {
-    "name": "TileCloud Basic"
+    "name": "TileCloud Basic",
+    "deprecated": true
   },
   "tilecloud-basic-3d": {
-    "name": "TileCloud Basic 3D"
+    "name": "TileCloud Basic 3D",
+    "deprecated": true
+  },
+  "geolonia-basic": {
+    "name": "Geolonia Basic"
+  },
+  "geolonia-basic-3d": {
+    "name": "Geolonia Basic 3D"
   },
   "osm-bright": {
     "name": "OSM Bright"
