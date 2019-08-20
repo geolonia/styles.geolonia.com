@@ -4,7 +4,7 @@
   "sources": {
     "shaded": {
       "type": "raster",
-      "url": "https://shaded.tiles.tilecloud.io/source.json"
+      "url": "https://shaded.tiles.geolonia.com/source.json"
     },
     "openmaptiles": {
       "type": "vector",
