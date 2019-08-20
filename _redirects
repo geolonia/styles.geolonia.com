@@ -1,0 +1,7 @@
+# These rules will change if you change your site’s custom domains or HTTPS settings
+
+# Redirect domain aliases to primary domain
+https://styles.tilecloud.io/* https://styles.geolonia.com/:splat 301!
+
+# Optional: Redirect default Netlify subdomain to primary domain
+https://geolonia-styles.netlify.com/* https://styles.geolonia.com/:splat 301!
