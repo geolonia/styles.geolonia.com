@@ -4,7 +4,7 @@
   "sources": {
     "shaded": {
       "type": "raster",
-      "url": "https://shaded.tiles.tilecloud.io/source.json"
+      "url": "https://shaded.tiles.geolonia.com/source.json"
     },
     "openmaptiles": {
       "type": "vector",
@@ -15,8 +15,8 @@
       "data": "https://api.tilecloud.io/v1/prefs"
     }
   },
-  "sprite": "https://sprites.tilecloud.io/basic",
-  "glyphs": "https://glyphs.tilecloud.io/{fontstack}/{range}.pbf",
+  "sprite": "https://sprites.geolonia.com/basic",
+  "glyphs": "https://glyphs.geolonia.com/{fontstack}/{range}.pbf",
   "layers": [
     {
       "id": "background",
@@ -3989,5 +3989,5 @@
       }
     }
   ],
-  "id": "tilecloud-basic"
+  "id": "geolonia-basic"
 }
