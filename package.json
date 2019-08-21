@@ -1,5 +1,5 @@
 {
-  "name": "styles.tilecloud.io",
+  "name": "styles.geolonia.com",
   "version": "1.0.0",
   "description": "",
   "main": "index.js",
@@ -11,7 +11,7 @@
   "author": "",
   "license": "ISC",
   "dependencies": {
-    "@tilecloud/mbgl-tilecloud-control": "^0.3.5",
+    "@geolonia/mbgl-geolonia-control": "^0.3.8",
     "babel-polyfill": "^6.26.0",
     "parcel": "^1.12.3"
   }

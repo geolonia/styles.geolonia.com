@@ -48,8 +48,8 @@
       "data": "https://api.tilecloud.io/v1/prefs"
     }
   },
-  "sprite": "https://styles.tilecloud.io/osm-bright/sprite",
-  "glyphs": "https://glyphs.tilecloud.io/{fontstack}/{range}.pbf",
+  "sprite": "https://styles.geolonia.com/osm-bright/sprite",
+  "glyphs": "https://glyphs.geolonia.com/{fontstack}/{range}.pbf",
   "layers": [
     {
       "id": "background",

@@ -16,7 +16,7 @@
       "data": "https://api.tilecloud.io/v1/prefs"
     }
   },
-  "glyphs": "https://glyphs.tilecloud.io/{fontstack}/{range}.pbf",
+  "glyphs": "https://glyphs.geolonia.com/{fontstack}/{range}.pbf",
   "layers": [
     {
       "id": "background",
@@ -1184,5 +1184,5 @@
     }
   ],
   "id": "klokantech-3d",
-  "sprite": "https://sprites.tilecloud.io/maki"
+  "sprite": "https://sprites.geolonia.com/maki"
 }

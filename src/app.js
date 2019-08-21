@@ -1,5 +1,5 @@
 import 'babel-polyfill' // For ie11
-import TileCloudControl from '@tilecloud/mbgl-tilecloud-control'
+import GeoloniaControl from '@geolonia/mbgl-geolonia-control'
 
 import './style.css'
 
@@ -21,7 +21,7 @@ req.onreadystatechange = () => {
 
     map.addControl(new mapboxgl.NavigationControl());
     map.addControl(new mapboxgl.GeolocateControl());
-    map.addControl(new TileCloudControl());
+    map.addControl(new GeoloniaControl());
 
     map.on( 'load', () => {
       console.log( performance.now() - start )
@@ -52,6 +52,7 @@ req.onreadystatechange = () => {
     const menu = document.querySelector('#menu')
 
     for (const key in styles) {
+      if (styles[key].deprecated) continue
       const img = document.createElement('img')
       img.src = `./${key}/screenshot.png`
       img.dataset.target = key

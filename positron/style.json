@@ -31,8 +31,8 @@
       "data": "https://api.tilecloud.io/v1/prefs"
     }
   },
-  "sprite": "https://sprites.tilecloud.io/maki",
-  "glyphs": "https://glyphs.tilecloud.io/{fontstack}/{range}.pbf",
+  "sprite": "https://sprites.geolonia.com/maki",
+  "glyphs": "https://glyphs.geolonia.com/{fontstack}/{range}.pbf",
   "layers": [
     {
       "id": "background",

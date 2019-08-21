@@ -1,3 +1,3 @@
-# styles.tilecloud.io
+# styles.geolonia.com
 
-https://styles.tilecloud.io/
+https://styles.geolonia.com/
