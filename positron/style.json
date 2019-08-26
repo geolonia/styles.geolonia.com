@@ -24,11 +24,11 @@
   "sources": {
     "openmaptiles": {
       "type": "vector",
-      "url": "https://api.tilecloud.io/v1/sources?key=YOUR-API-KEY"
+      "url": "https://api.geolonia.com/v1/sources?key=YOUR-API-KEY"
     },
     "japanese-prefectures": {
       "type": "geojson",
-      "data": "https://api.tilecloud.io/v1/prefs"
+      "data": "https://api.geolonia.com/v1/prefs"
     }
   },
   "sprite": "https://sprites.geolonia.com/maki",
